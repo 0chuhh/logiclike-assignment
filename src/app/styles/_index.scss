@@ -1,6 +1,9 @@
 @import "normalize";
 @import "vars";
+@import "fonts";
+
 html {
+	@extend .nunito-sans; 
 	height: 100vh;
 }
 body,#root,.app, .app>div{
