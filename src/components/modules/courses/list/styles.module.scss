@@ -1,0 +1,7 @@
+.course_list{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 18px;
+    height: min-content;
+}

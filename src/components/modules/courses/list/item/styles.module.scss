@@ -1,0 +1,41 @@
+.card{
+    border-radius: 18px;
+    background-color: $background-color;
+    box-shadow: 0px 10px 13px -4px #23235F30;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+    scale: 0;
+    animation: appearAnim;
+    animation-duration: .4s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+
+    & .img_wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 162px;
+    }
+    & img {
+        height: inherit;
+    }
+
+    & .title {
+        font-weight: 800;
+        font-size: 18px;
+        padding: 12px 18px 18px 18px;
+        box-sizing: border-box;
+    }
+}
+
+
+@keyframes appearAnim {
+    0%{
+        scale: 0;
+    }
+    100%{
+        scale:1
+    }
+}
