@@ -1,0 +1,18 @@
+.item {
+    cursor: pointer;
+    width: 100%;
+    background-color: #fff;
+    color: $primary-text-color;
+    border-radius: 12px;
+    padding: 12px;
+    box-sizing: border-box;
+    font-weight: 800;
+    font-size: 18px;
+    transition: all .3s ease-in-out
+}
+
+.item_selected {
+    @extend .item;
+    background-color: $primary-color;
+    color: $secondary-text-color;
+}
